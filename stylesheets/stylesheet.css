@@ -45,12 +45,14 @@ a, a:hover, a:focus{
 
 a {
   color: #fff;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom:1px dotted;
 
 }
 
 a:hover, a:focus {
   color: #ddd;
+  text-decoration:underline;
 }
 /* Header, <header>
    header   - container
