@@ -9,14 +9,22 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <title>anahita.wtf</title>
+    
+    
+    <title>
+    {% if page.title %}
+      {{ page.title }} &ndash;
+    {% endif %}
+    {{ site.name }}
+  </title>
+  
   </head>
 
   <body>
 
     <header>
       <div class="container">
-        <h1>anahita.wtf</h1>
+        <h1>{{ site.name }}</h1>
         <h2></h2>
 
         
