@@ -258,3 +258,16 @@ a {
 .cf {
   zoom:1;
 }
+
+/* Default styles first then media queries */
+@media screen and (min-width: 400px)  {
+  .container {
+   max-width: 10em;
+   margin: 0;
+ }
+  
+}
+*/
+@media screen and (min-width: 600px)  {...}
+@media screen and (min-width: 1000px) {...}
+@media screen and (min-width: 1400px) {...}*/
