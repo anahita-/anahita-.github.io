@@ -263,7 +263,7 @@ a {
 /* Default styles first then media queries */
 @media screen and (max-width: 400px)  {
   .container {
-   max-width: 360px;
+   max-width: 22em;
  }
   
 }
