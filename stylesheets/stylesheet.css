@@ -6,7 +6,6 @@ body {
   font-size: 1em;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  width: 100%;
 }
 
 /* General & 'Reset' Stuff */
@@ -262,8 +261,12 @@ a {
 
 /* Default styles first then media queries */
 @media screen and (max-width: 400px)  {
+  body {
+    max-width: 23em;
+
+  }
   .container {
-   max-width: 22em;
+   max-width: 90%;
  }
   
 }
