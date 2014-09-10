@@ -6,6 +6,8 @@ body {
   font-size: 1em;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  -webkit-font-smoothing: antialiased;
+
 }
 
 /* General & 'Reset' Stuff */
@@ -29,6 +31,19 @@ li {
   line-height: 1.4 ;
 }
 
+/* Links
+   a, a:hover, a:visited
+*/
+
+a, a:hover, a:focus{
+-webkit-transition: opacity 0.4s linear;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  
+}
+  
 /* Header, <header>
    header   - container
    h1       - project name
@@ -49,14 +64,7 @@ header h1 {
   line-height: 1.5;
   margin: 0; /* 0 0 -2.5em;*/
   font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
    letter-spacing: -0.063em;
-  -webkit-font-smoothing: antialiased;
-  -webkit-transition: opacity 0.4s linear;
-  opacity: 1;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
 }
 
 header h1:before {
@@ -64,12 +72,9 @@ header h1:before {
   font-size: 1.5em;
 }
 
-header h1:hover, header h1:active {
+header h1 a:hover, header h1 a:active, header h1 a:focus {
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff45ed, 0 0 30px #ff2dff, 0 0 40px #632171, 0 0 50px #ffffff, 0 0 75px #0075FF;-webkit-transition: opacity 0.4s linear;
   opacity: 1;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
 }
 
 
@@ -233,14 +238,8 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
-/* Links
-   a, a:hover, a:visited
-*/
 
-a {
-  color: #63c0f5;
-  text-shadow: 0 0 0.313em rgba(104, 182, 255, 0.5);
-}
+  
 
 /* Clearfix */
 
