@@ -259,18 +259,4 @@ a {
   zoom:1;
 }
 
-/* Default styles first then media queries */
-@media screen and (max-width: 400px)  {
-  body {
-    max-width: 23em;
 
-  }
-  .container {
-   max-width: 90%;
- }
-  
-}
-*/
-@media screen and (min-width: 600px)  {...}
-@media screen and (min-width: 1000px) {...}
-@media screen and (min-width: 1400px) {...}*/
