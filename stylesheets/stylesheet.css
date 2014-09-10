@@ -46,14 +46,14 @@ a, a:hover, a:focus{
 a {
   color: #fff;
   text-decoration: none;
-  border-bottom:0.063em dotted;
+  border-bottom:0.1em dotted;
 
 }
 
 a:hover, a:focus {
   color: #ddd;
   text-decoration: none;
-  border-bottom:0.063em solid;
+  border-bottom:0.1em solid;
   
 }
 /* Header, <header>
