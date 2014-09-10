@@ -49,18 +49,33 @@ header h1 {
   margin: 0; /* 0 0 -2.5em;*/
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  /*color: #b5e853;*/
+  /* color: #b5e853;
   text-shadow: 0 0.063em 0.063em rgba(0, 0, 0, 0.1),
                0 0 0.313em rgba(181, 232, 83, 0.1),
-               0 0 0.625em rgba(181, 232, 83, 0.1);
+               0 0 0.625em rgba(181, 232, 83, 0.1);*/
   letter-spacing: -0.063em;
   -webkit-font-smoothing: antialiased;
+  -webkit-transition: opacity 0.4s linear;
+opacity: 1;
+-webkit-transition: all 0.4s ease-out;
+-moz-transition: all 0.4s ease-out;
+transition: all 0.4s ease-out;
 }
 
 header h1:before {
   /*content: "./ ";*/
   font-size: 1.5em;
 }
+
+header h1:hover, header h1:active {
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff45ed, 0 0 30px #ff2dff, 0 0 40px #ff0000, 0 0 50px #ffffff, 0 0 75px #ff6666;
+-webkit-transition: opacity 0.4s linear;
+opacity: 1;
+-webkit-transition: all 0.4s ease-out;
+-moz-transition: all 0.4s ease-out;
+transition: all 0.4s ease-out;
+}
+
 
 header h2 {
   font-size: 1.125em;
