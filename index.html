@@ -1,46 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width">
+---
+layout: layout
+published: true
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+---
 
-    <title>anahita.wtf</title>
-  </head>
+<section class="content">
+    {% for post in site.posts %}
+      {% unless post.draft %}
+      <h1>
+        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+     <section class="byline">
+    <a href="{{ site.url }}{{ post.url }}"><i class="fa fa-calendar" font-size = "14px"></i></a> <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a> <a href="{{ site.url }}{{ post.url }}#comments"><i class="fa fa-comment" id = "tags"></i></a> <a href="{{ site.url }}{{ post.url }}#disqus_thread">0 Comments</a> <a href="./tags/"><i class="fa fa-tag" id = "tags"></i></a> {% for tag in post.tags %}<a href="./tag/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;">{{ tag }}</a>{% if forloop.last != true %}, {% endif %} {% endfor %}
+  </section>
+          {{ post.content }}
 
-  <body>
+      {% endunless %}
+    {% endfor %}
+  
+  
 
-    <header>
-      <div class="container">
-        <h1>anahita.wtf</h1>
-        <h2></h2>
-
-        
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <p>Hi, I'm anahita.</p>
-
-<p>I'm a small internet beastie that likes to program things and write about social justice. </p>
-      </section>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-54644078-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
-</html>
+</section>
