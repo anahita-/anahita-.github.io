@@ -4,9 +4,15 @@ published: true
 ---
 
 <section class="content">
-  <h1>
-    <a href="{{site.url}}{{ page.url }}">{{ page.title }}</a>
-  </h1>
+                <section class="post-heading">
+
+                    <h1>
+                    <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+                    <section class="byline">
+                         <a href="{{ site.url }}{{ page.url }}">{{ page.date | date: "%B %e, %Y" }}</a>
+                    </section>
+                </section>
+
 
   {{ content }}
 
