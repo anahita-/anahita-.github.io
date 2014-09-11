@@ -88,7 +88,6 @@ header h1 a, header h1 a:hover, header h1 a:active, header h1 a:focus {
 header h2 {
   font-size: 1.125em;
   font-weight: 300;
-  color: #666;
 }
 
 #downloads .btn {
@@ -178,7 +177,6 @@ section.byline a, section.byline a:hover, section.byline a:active, section.bylin
 #main_content h6 {
   font-size: 0.750em;
   text-transform: uppercase;
-  color: #999;
   margin: 0 0 0.313em 0;
 }
 
@@ -202,7 +200,6 @@ ul li:before {
 }
 
 blockquote {
-  color: #aaa;
   padding-left: 0.625em;
   border-left: 0.063em dotted #666;
 }
@@ -298,4 +295,24 @@ section.post-content {
 
 .cf {
   zoom:1;
+}
+
+
+label.btn {
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input[type="checkbox"]:checked + div{
+    background: #5BC0DE;
+}
+label + input[type="checkbox"]:checked{
+    background: #000;
 }
