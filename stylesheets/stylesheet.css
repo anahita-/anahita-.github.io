@@ -135,10 +135,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #main_content h1 {
   font-size: 1.5em;
+  margin: 0;
+  padding: 0;
 }
 section.byline {
-    font-size: 1em;
-
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 section.post-heading {
