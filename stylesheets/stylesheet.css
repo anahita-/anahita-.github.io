@@ -154,6 +154,10 @@ section.post-heading h1 {
   display: inline-flex;
 }
 
+section.post-heading:hover {
+  color: #999;
+  border-bottom:0.1em solid;
+}
 section.post-heading {
   color: #fff;
   border-bottom: dotted 0.1em;
@@ -315,5 +319,3 @@ section.post-content {
 .cf {
   zoom:1;
 }
-
-
