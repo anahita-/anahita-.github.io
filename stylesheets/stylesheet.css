@@ -146,8 +146,8 @@ section.post-heading {
   display: inline-block;
 }
 
-section.post-heading h1 a, section.post-heading h1 a:hover,
-section.post-heading h1 a:active, section.post-heading h1 a:focus {
+section.post-heading h1 {
+  display: inline;
 
 }
 
