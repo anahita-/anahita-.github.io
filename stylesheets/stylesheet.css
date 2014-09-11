@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000;
-  color: #fff;
+
   font-size: 1em;
   line-height: 1.5;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -11,7 +10,12 @@ body {
 }
 
 /* General & 'Reset' Stuff */
-
+#wrap {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
 .container {
   width: 90%;
   max-width: 37.500em;
@@ -310,7 +314,7 @@ label.btn {
 input[type="checkbox"]{
     display: none;
 }
-input[type="checkbox"]:checked + body{
+input[type="checkbox"]:checked + wrap{
     background: #fff;
 }
 label + input[type="checkbox"]:checked{
