@@ -85,7 +85,6 @@ header h1:before {
 }
 
 header h1 a, header h1 a:hover, header h1 a:active, header h1 a:focus {
-  color: #fff;
   text-decoration: none;
   /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff45ed, 0 0 30px #ff2dff, 0 0 40px #632171, 0 0 50px #ffffff, 0 0 75px #0075FF;-webkit-transition: opacity 0.4s linear;*/
   opacity: 1;
