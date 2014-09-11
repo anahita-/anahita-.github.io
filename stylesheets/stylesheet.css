@@ -140,7 +140,6 @@ section.post-heading h1 {
 }
 
 section.post-heading:hover {
-  color: #999;
   border-bottom:0.125em solid;
 }
 section.post-heading {
