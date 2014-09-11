@@ -130,12 +130,12 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-flex;
 }
 section.byline {
-display: inline-flex;
+  display: inline-flex;
 }
 
 section.byline a, section.byline a:hover, section.byline a:active, section.byline a:focus {
-text-decoration: none;
-  
+  text-decoration: none;
+  border: 0;
 }
 
 #main_content h2 {
