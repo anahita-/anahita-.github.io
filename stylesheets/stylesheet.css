@@ -318,6 +318,8 @@ label.btn {
         top:10px;
     left: 10px;
     z-index:2; 
+        position: absolute;
+
 }
 input[type="checkbox"]{
     display: none;
