@@ -135,10 +135,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #main_content h1 {
   font-size: 1.5em;
-  display: inline-flex;
 }
 section.byline {
-  display: inline-flex;
+    font-size: 1em;
+
+}
+
+section.post-heading {
 }
 
 section.byline a, section.byline a:hover, section.byline a:active, section.byline a:focus {
