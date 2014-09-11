@@ -81,7 +81,6 @@ header h1:before {
 
 header h1 a, header h1 a:hover, header h1 a:active, header h1 a:focus {
   text-decoration: none;
-  /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff45ed, 0 0 30px #ff2dff, 0 0 40px #632171, 0 0 50px #ffffff, 0 0 75px #0075FF;-webkit-transition: opacity 0.4s linear;*/
   opacity: 1;
 }
 
@@ -142,11 +141,11 @@ section.post-heading h1 {
 
 section.post-heading:hover {
   color: #999;
-  border-bottom:0.1em solid;
+  border-bottom:0.125em solid;
 }
 section.post-heading {
   color: #fff;
-  border-bottom: dotted 0.1em;
+  border-bottom: dotted 0.125em;
   width: auto;
   display: inline-block;
 }
