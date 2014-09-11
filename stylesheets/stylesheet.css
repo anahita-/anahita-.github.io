@@ -35,22 +35,8 @@ li {
    a, a:hover, a:visited
 */
 
-a {
-  
--webkit-transition: opacity 0.5s linear;
-  opacity: 1;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
 
-a:hover, a:focus, :hover{
--webkit-transition: opacity 1s linear;
-  opacity: 1;
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-}
+
 
 a {
   color: #fff;
@@ -60,7 +46,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #999;
+  color: #fff;
   text-decoration: none;
   border-bottom:0.1em solid;
   
