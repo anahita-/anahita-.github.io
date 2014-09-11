@@ -324,7 +324,7 @@ label.btn {
 input[type="checkbox"]{
     display: none;
 }
-input[type="checkbox"]:checked + wrap{
+input[type="checkbox"]:checked + .wrap{
     background: #fff;
     color: #000;
 }
