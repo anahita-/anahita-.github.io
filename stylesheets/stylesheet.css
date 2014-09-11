@@ -315,13 +315,18 @@ label.btn {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+        top:10px;
+    left: 10px;
+    z-index:2; 
 }
 input[type="checkbox"]{
     display: none;
 }
 input[type="checkbox"]:checked + wrap{
     background: #fff;
+    color: #000;
 }
 label + input[type="checkbox"]:checked{
     background: #000;
+    color: #fff;
 }
