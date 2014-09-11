@@ -310,8 +310,8 @@ label.btn {
 input[type="checkbox"]{
     display: none;
 }
-input[type="checkbox"]:checked + div{
-    background: #5BC0DE;
+input[type="checkbox"]:checked + body{
+    background: #fff;
 }
 label + input[type="checkbox"]:checked{
     background: #000;
