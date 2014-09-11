@@ -252,7 +252,9 @@ hr {
   background: url("../images/blacktocat.png") 0 0 no-repeat;
 }
 
-
+section.post-content {
+  padding-top: 1.25em;
+}
   
 
 /* Clearfix */
