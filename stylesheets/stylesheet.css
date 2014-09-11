@@ -140,19 +140,15 @@ section.post-heading h1 {
 }
 
 section.post-heading:hover {
-  border-bottom:0.125em solid;
 }
 section.post-heading {
-  color: #fff;
-  border-bottom: dotted 0.125em;
   width: auto;
   display: inline-block;
 }
 
 section.post-heading h1 a, section.post-heading h1 a:hover,
 section.post-heading h1 a:active, section.post-heading h1 a:focus {
-  text-decoration: none;
-  border: 0;
+
 }
 
 
