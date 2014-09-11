@@ -7,17 +7,16 @@ published: true
 <section class="content">
     {{site.about}}
     {% for post in site.posts %}
-      {% unless post.draft %}
-      <h1>
-        <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
-     <section class="byline">
-    <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>
-  </section>
-          {{ post.content }}
+        {% unless post.draft %}
+            <section class="post-content">
+                <h1>
+                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h1>
+                <section class="byline">
+                     <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %e, %Y" }}</a>
+                </section>
+                {{ post.content }}
+            </section>
 
-      {% endunless %}
+        {% endunless %}
     {% endfor %}
-  
-  
-
 </section>
