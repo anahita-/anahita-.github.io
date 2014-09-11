@@ -144,7 +144,6 @@ section.byline {
   font-size: 1em;
   margin: 0;
   padding: 0;
-  padding-left: 2em;
   display: inline-flex;
   vertical-align: baseline;
 }
@@ -156,12 +155,14 @@ section.post-heading h1 {
 }
 
 section.post-heading:hover {
-border-bottom: solid 0.1em;
+  color: #999;
+  border-bottom:0.1em solid;
 }
 section.post-heading {
-border-bottom: dotted 0.1em;
-width: auto;
-display: inline-block;
+  color: #fff;
+  border-bottom: dotted 0.1em;
+  width: auto;
+  display: inline-block;
 }
 
 section.post-heading h1 a, section.post-heading h1 a:hover,
