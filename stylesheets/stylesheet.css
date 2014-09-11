@@ -138,10 +138,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
 }
-#main_content h1 a {
-border: 0;
-  
-}
 
 
 section.byline {
@@ -153,8 +149,18 @@ section.byline {
   vertical-align: baseline;
 }
 
-section.post-heading {
+section.post-heading h1 {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
 }
+
+section.post-heading h1 a, section.post-heading h1 a:hover,
+section.post-heading h1 a:active, section.post-heading h1 a:focus {
+  text-decoration: none;
+  border: 0;
+}
+
 
 section.byline a, section.byline a:hover, section.byline a:active, section.byline a:focus {
   text-decoration: none;
